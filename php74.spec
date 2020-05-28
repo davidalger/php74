@@ -57,8 +57,8 @@
 
 Summary: PHP scripting language for creating dynamic web sites
 Name: php74
-Version: 7.4.6
-Release: 3%{?dist}
+Version: 7.4.7
+Release: 1%{?dist}
 # All files licensed under PHP version 3.01, except
 # Zend is licensed under Zend
 # TSRM is licensed under BSD
@@ -1707,6 +1707,9 @@ exit 0
 
 
 %changelog
+* Thu Jun 04 2020 David Alger <davidmalger@gmail.com> - 7.4.7-1
+- Latest upstream
+
 * Tue Jun 04 2020 Remi Collet <remi@remirepo.net> - 7.4.6-3
 - use php-config from embed SAPI to reduce used libs
 
